@@ -9,7 +9,7 @@ ImageButton::ImageButton(QWidget *parent)
     setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     // mButtonDownPixmap   = QPixmap("F:\\Code\\skillbox\\38_1\\resources\\red_Button_Down.png");
     // mButtonUpPixmap     = QPixmap("F:\\Code\\skillbox\\38_1\\resources\\red_Button_Up.png");
-    mButtonDownPixmap   = QPixmap("..\\..\\resources\\red_Button_Up.png");
+    mButtonDownPixmap   = QPixmap("..\\..\\resources\\red_Button_Down.png");
     mButtonUpPixmap     = QPixmap("..\\..\\resources\\red_Button_Up.png");
     mCurrentButtonPixmap = mButtonUpPixmap;
     setGeometry(mCurrentButtonPixmap.rect());
