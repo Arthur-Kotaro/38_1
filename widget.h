@@ -24,6 +24,7 @@ class ImageButton : public QPushButton
 public:
     ImageButton() = default;
     ImageButton(QWidget *parent);
+    ~ImageButton();
     void paintEvent(QPaintEvent *event) override;
     QSize sizeHint() const override;
     QSize minimumSizeHint() const override;
